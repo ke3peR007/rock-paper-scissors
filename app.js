@@ -59,13 +59,13 @@ function game(userChoice) {
     case "ps":
     case "sr":
       console.log("user loses");
-        lose();
+        lose(userChoice,computerChoice);
         break;
     case "rr":
     case "pp":
     case "ss":
     console.log("its a draw");
-        draw();
+        draw(userChoice,computerChoice);
         break;
 
   }
